@@ -1,6 +1,6 @@
 # RSP-GAME
 
-Rock-Scissors-Paper game. Design and development is my work.
+Rock-Scissors-Paper game. Design and development is my first dev-work.
 ____________________________________________________________
 
 Rules of the game
@@ -19,3 +19,8 @@ If you lose 3 times, the bank burns. When a player's score is reset, the game is
 ____________________________________________________________
 
 FIGMA, VSCODE, HTML, CSS, JAVASCRIPT was used to create this game.
+____________________________________________________________
+
+Current issues:
+1) It was not possible to get the user points counter to work correctly. When the number of the bet exceeds the number of user points, a negative value is formed.
+2) When comparing string values, the result of the user's selection is sometimes displayed incorrectly.
