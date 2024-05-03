@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--Header_____________________________________________-->
+
+    <h1>Rock Scissors Paper Game</h1>
+  
+    <header>
+        <p class="names" id="youElement">You</p>
+        <div id="bankElement">
+            <p class="description">Bank</p>
+            <span id="bankScore">0</span>
+        </div>
+        <p class="names">Computer</p>
+    </header>
+
+<!--Game Section_____________________________________________-->
+
+    <section id="gameZone">
+        <div id="handsBlue"></div>
+
+        <div id="centerPanel">
+            
+            <p id="chooseText">Choose weapon</p>
+            <div id="chooseButtons">
+                <div class='button' id="rockBlue"></div>
+                <div class='button' id="scissorsBlue"></div>
+                <div class='button' id="paperBlue"></div>
+            </div>
+            
+            <div id="bids">
+
+                <p id="selectBid">Select your bid</p>
+    
+                <div id="bidSelector">
+                    <div class='button' id="bid10" data-counter="10">10</div>
+                    <div class='button' id="bid100" data-counter="100">100</div>
+                    <div class='button' id="bid250" data-counter="250">250</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="handsRed"></div>
+    </section>
+
+    <!--Control Panel_____________________________________________-->
+
+    <img id="panelBg" src="../img/imgPanel.svg" alt="control panel">
+
+    <div id="scoreSection">
+        <p class="description">Score</p>
+        <p id="scoreCount">1000</p>
+    </div>
+
+    <section id="controlPanel">
+
+        <div id="playerWins">       
+            <div class="winsAll">
+                <p class="description">You wins</p>
+                <p id="playerWinsScore">0</p>
+            </div>
+        </div>
+
+        <input id="start" type="button" value="Ready">
+
+        <div id="enemyWins">
+            <div class="winsAll">
+                <p class="description">Enemy wins</p>
+                <p id="enemyWinsScore">0</p>
+            </div>  
+        </div>
+
+        <div id="final"></div>
+
+    </section>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
+
+
