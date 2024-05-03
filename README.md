@@ -24,3 +24,4 @@ ____________________________________________________________
 Current issues:
 1) It was not possible to get the user points counter to work correctly. When the number of the bet exceeds the number of user points, a negative value is formed.
 2) When comparing string values, the result of the user's selection is sometimes displayed incorrectly.
+3) Work in progress
