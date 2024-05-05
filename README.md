@@ -4,7 +4,7 @@ Rock-Scissors-Paper game. Design and development is my first dev-work.
 ____________________________________________________________
 
 Rules of the game
-The game takes place in three acts and three iterations.
+The game takes place in three steps and three iterations.
 The player's side is blue.
 The starting number of points is 1000.
 ____________________________________________________________
