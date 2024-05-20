@@ -210,7 +210,7 @@ body {
       border: 2px solid #727E9F;
       box-shadow: 0px 0px 70px 40px rgba(79, 126, 255, 0.60);
       background: #505357;
-      background-image: url('../img/defaultBlue.svg');
+      background-image: url('../RSP/img/defaultBlue.svg');
     }
 
     #centerPanel {
@@ -296,17 +296,17 @@ body {
 
     #rockBlue {
       background-size: cover;
-      background-image: url('../img/rockBlue.svg');
+      background-image: url('../RSP/img/rockBlue.svg');
     }
 
     #scissorsBlue {
       background-size: cover;
-      background-image: url('../img/scissorsBlue.svg');
+      background-image: url('../RSP/img/scissorsBlue.svg');
     }
 
     #paperBlue {
       background-size: cover;
-      background-image: url('../img/paperBlue.svg');
+      background-image: url('../RSP/img/paperBlue.svg');
     }
 
     .button {
@@ -386,7 +386,7 @@ body {
       border: 2px solid #A16068;
       box-shadow: 0px 0px 70px 40px rgba(221, 36, 59, 0.60);
       background: #505357;
-      background-image: url('../img/defaultRed.svg');
+      background-image: url('../RSP/img/defaultRed.svg');
     }
 
     #blueBlur {
