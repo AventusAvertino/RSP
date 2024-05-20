@@ -10,8 +10,8 @@ The starting number of points is 1000.
 ____________________________________________________________
 
 1) The player selects one of the pieces;
-2) Selects the bet amount that the computer supports.
-3) presses the Battle button!
+2) Selects the bet amount that the computer supports;
+3) Presses the Fight button!
 
 At this time, the computer generates a random figure and compares it with the player's figure. The game lasts until 3 wins.
 If a player wins 3 times, he takes the bank, the victories are reset and the cycle starts again.
