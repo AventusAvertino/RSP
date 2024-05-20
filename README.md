@@ -15,7 +15,7 @@ ____________________________________________________________
 
 At this time, the computer generates a random figure and compares it with the player's figure. The game lasts until 3 wins.
 If a player wins 3 times, he takes the bank, the victories are reset and the cycle starts again.
-If you lose 3 times, the bank burns. When a player's score is reset, the game is over.
+If player lose 3 times - the bank burns. When a player's score is 0 - the game is over.
 ____________________________________________________________
 
 FIGMA, VSCODE, HTML, CSS, JAVASCRIPT was used to create this game.
