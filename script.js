@@ -61,7 +61,7 @@ chooseButton.addEventListener('click', function(event) {
   weaponString = weapon.toString();
 
   buttonClick = true;
-  handsBlue.style.backgroundImage = `url(../img/${weapon}.svg)`;
+  handsBlue.style.backgroundImage = `url(../RSP/img/${weapon}.svg)`;
 
   console.log('Игрок выбрал:', weaponString);
 
@@ -88,9 +88,9 @@ function handleStartButtonClick() {
 }
 
 //Переменные с картинками для компьютера
-const rockRed = '../img/rockRed.svg';
-const scissorsRed = '../img/scissorsRed.svg';
-const paperRed = '../img/paperRed.svg';
+const rockRed = '../RSP/img/rockRed.svg';
+const scissorsRed = '../RSP/img/scissorsRed.svg';
+const paperRed = '../RSP/img/paperRed.svg';
 
 //___________________________________________
 
@@ -110,7 +110,7 @@ function fightStarting() {
 
   if (fightElement) {
     fightElement.style.animation = 'none';
-    void fightElement.offsetWidth; // Trigger reflow
+    void fightElement.offsetWidth; 
     fightElement.style.animation = 'shadowPulse 0.2s ease-in-out';
   }
 
@@ -212,7 +212,7 @@ const final = document.getElementById('final');
 
 function winModal(playerWinsScore) {
 
-const winBlue = '../img/finalWin.svg';
+const winBlue = '../RSP/img/finalWin.svg';
 
   if(playerWinsScore.textContent === '3') {
 
@@ -249,7 +249,7 @@ function winFinalClick() {
 // Поражение
 function loseModal(enemyWinsScore) {
 
-const winRed = '../img/finalRed.svg';
+const winRed = '../RSP/img/finalRed.svg';
 
   if(enemyWinsScore.textContent === '3') {
 
@@ -277,7 +277,7 @@ function loseFinalClick() {
 // Конец игры
 function scoreGameOver(scoreCountElement) {
 
-const gameOver = '../img/gameOver.svg';
+const gameOver = '../RSP/img/gameOver.svg';
 
   if(scoreCountElement.textContent === '0') {
 
