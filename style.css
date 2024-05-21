@@ -6,10 +6,10 @@
 
 @font-face {
   font-family: 'Mont', sans-serif;
-  src: url('../RSP/fonts/Mont-Bold.eot');
+  src: url('../RSP/fonts/Mont-Bold.woff2');
   src: local('Mont Bold'), local('Mont-Bold'),
       url('Mont-Bold.eot?#iefix') format('embedded-opentype'),
-      url('Mont-Bold.woff2') format('woff2'),
+      url('Mont-Bold.woff2') format('eot'),
       url('Mont-Bold.woff') format('woff'),
       url('Mont-Bold.ttf') format('truetype');
   font-weight: bold;
@@ -18,10 +18,10 @@
 
 @font-face {
   font-family: 'Mont', sans-serif;
-  src: url('../RSP/fonts/Mont-SemiBold.eot');
+  src: url('../RSP/fonts/Mont-SemiBold.woff2');
   src: local('Mont SemiBold'), local('Mont-SemiBold'),
       url('Mont-SemiBold.eot?#iefix') format('embedded-opentype'),
-      url('Mont-SemiBold.woff2') format('woff2'),
+      url('Mont-SemiBold.woff2') format('eot'),
       url('Mont-SemiBold.woff') format('woff'),
       url('Mont-SemiBold.ttf') format('truetype');
   font-weight: 600;
@@ -30,10 +30,10 @@
 
 @font-face {
   font-family: 'Mont', sans-serif;
-  src: url('../RSP/fonts/Mont-Regular.eot');
+  src: url('../RSP/fonts/Mont-Regular.woff2');
   src: local('Mont Regular'), local('Mont-Regular'),
       url('Mont-Regular.eot?#iefix') format('embedded-opentype'),
-      url('Mont-Regular.woff2') format('woff2'),
+      url('Mont-Regular.woff2') format('eot'),
       url('Mont-Regular.woff') format('woff'),
       url('Mont-Regular.ttf') format('truetype');
   font-weight: normal;
@@ -42,10 +42,10 @@
 
 @font-face {
   font-family: 'Mont', sans-serif;
-  src: url('../RSP/fonts/Mont-Light.eot');
+  src: url('../RSP/fonts/Mont-Light.woff2');
   src: local('Mont Light'), local('Mont-Light'),
       url('Mont-Light.eot?#iefix') format('embedded-opentype'),
-      url('Mont-Light.woff2') format('woff2'),
+      url('Mont-Light.woff2') format('eot'),
       url('Mont-Light.woff') format('woff'),
       url('Mont-Light.ttf') format('truetype');
   font-weight: 300;
