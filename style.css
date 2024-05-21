@@ -109,7 +109,7 @@
 body {
     width: auto;
     height: 743px;
-    font-family: 'Mont', sans-serif, 'Roboto', display;
+    font-family: 'Mont', sans-serif, 'Inter', sans-serif;
     background-color: #33363B;
     color: #ffffff;
     display: flex;
