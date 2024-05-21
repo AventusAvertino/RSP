@@ -109,7 +109,7 @@
 body {
     width: auto;
     height: 743px;
-    font-family: 'Mont', sans-serif, 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #33363B;
     color: #ffffff;
     display: flex;
@@ -120,7 +120,6 @@ body {
 
   h1 {
     color:  #FEFDFB;
-    font-family: Inter;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -144,7 +143,6 @@ body {
     width: 102px;
     padding-top: 30px;
     color: #F4F4F1;
-    font-family: Mont;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -205,7 +203,6 @@ body {
       width: 300px;
       height: 300px;
       flex-shrink: 0;
-
       border-radius: 20px;
       border: 2px solid #727E9F;
       box-shadow: 0px 0px 70px 40px rgba(79, 126, 255, 0.60);
@@ -237,8 +234,6 @@ body {
     #timing {
       color: var(--Reclaimed-by-Silence-Lightest, #F4F4F1);
       text-align: right;
-
-      font-family: Mont;
       font-size: 128px;
       font-style: normal;
       font-weight: 700;
@@ -249,8 +244,6 @@ body {
     #congrat {
       color: var(--Reclaimed-by-Silence-Lightest, #F4F4F1);
       text-align: center;
-
-      font-family: Mont;
       font-size: 40px;
       font-style: normal;
       font-weight: 700;
@@ -261,8 +254,6 @@ body {
     #try {
       color: var(--Reclaimed-by-Silence-Lightest, #F4F4F1);
       text-align: center;
-
-      font-family: Mont;
       font-size: 40px;
       font-style: normal;
       font-weight: 700;
@@ -273,8 +264,6 @@ body {
     #chooseText {
       color: var(--Reclaimed-by-Silence-Lightest, #F4F4F1);
       text-align: center;
-
-      font-family: Mont;
       font-size: 18px;
       font-style: normal;
       font-weight: 600;
@@ -324,7 +313,6 @@ body {
 
       color: var(--Reclaimed-by-Silence-Lightest, #F4F4F1);
       text-align: center;
-      font-family: Mont;
       font-size: 24px;
       font-style: normal;
       font-weight: 700;
